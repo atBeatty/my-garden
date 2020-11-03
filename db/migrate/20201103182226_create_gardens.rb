@@ -3,8 +3,7 @@ class CreateGardens < ActiveRecord::Migration[6.0]
     create_table :gardens do |t|
       t.string :name
       t.string :location
-
-      t.timestamps
+      t.boolean :indoor
     end
   end
 end
